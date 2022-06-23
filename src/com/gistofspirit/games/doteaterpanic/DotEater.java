@@ -146,7 +146,7 @@ public class DotEater {
 		mY = mInitY;
 		mDirection = mInitDirection;
 		// Set feet to initial pos
-		mFeetAngle = 0;
+		mFeetAngle = Math.PI / 4;
 		// When the feet moves they'll be moving back
 		mFeetMoveDirection = -1;
 		// Set initial speed to slow
